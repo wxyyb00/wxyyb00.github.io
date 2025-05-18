@@ -8,6 +8,12 @@ MSc Information and Network Engineering
 
 This project introduces a 3D virtual navigation assistant tailored for visually impaired users within a Unity environment. The system integrates spatial audio feedback, dynamic pathfinding, and real-time user interaction to support accessible navigation. Core functionalities include obstacle detection with proximity-based beep feedback, NPC crowd avoidance, and voice-based assistant responses. Through a combination of animation, agent-based simulation, and perceptual design principles, the project demonstrates a functional prototype that enhances situational awareness and usability for users with limited vision.
 
+**This is a demo video.**
+<iframe width="100%" height="400" 
+            src="https://www.youtube.com/embed/jxW6GEjU-rc?autoplay=1&mute=1&loop=1" 
+            frameborder="0" allowfullscreen>
+    </iframe>
+    
 ## 1. Introduction
 
 Visually impaired individuals often rely on auditory helping devices for navigation. In this project, we designed a virtual assistant in a 3D Unity world to simulate such guidance. The assistant reacts to user input and leads users to their destination. **Our main goal was to explore the integration of computer graphics, animation, and accessibility support.**
