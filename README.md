@@ -124,7 +124,7 @@ These limitations highlight the need for future iterations that focus on user-ce
 
 This project aligns with perceptual principles in accessibility. Although the system is designed for visually impaired users, no formal user study has yet been conducted due to time and resource limitations. Therefore, current development decisions rely primarily on theoretical understanding of accessibility principles, informal testing, and iterative design feedback.
 
-Our perceptual assumptions are grounded in key principles from accessible design literature, including:
+Our perceptual assumptions are grounded in key principles from accessible design literature, including [6]:
 
 - The importance of non-visual cues, such as audio feedback, for spatial orientation.
 - The use of spatialized sound (e.g., directional beeps) to guide attention and communicate proximity to obstacles.
@@ -152,10 +152,12 @@ Some parts of this project, including the polishing of the report language and i
 
 1. C. W. Reynolds, "Flocks, Herds, and Schools: A Distributed Behavioral Model," *ACM SIGGRAPH Computer Graphics*, vol. 21, no. 4, pp. 25-34, 1987.
 
-2. Unity Technologies, "Unity Navigation and Pathfinding," <https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html>
+2. Unity Technologies, "Unity Navigation and Pathfinding,"  [Online]. Available: <https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html>
 
 3. Synty Studios, "Low Poly Simple Nature Pack," Unity Asset Store, 2020. <https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153>
 
-4. OpenAI, "ChatGPT: AI Language Model for Text Revision and Code Assistance," OpenAI, 2024. [Online]. Available: <https://chat.openai.com>
+4. OpenAI, "ChatGPT: AI Language Model for Text Revision and Code Assistance," OpenAI, 2024. <https://chat.openai.com>
 
 5. Adobe Mixamo, "3D Character Animation Platform," <https://www.mixamo.com>
+
+6. W3C, "Web Content Accessibility Guidelines (WCAG)," World Wide Web Consortium (W3C), 2023. [Online]. Available: <https://www.w3.org/WAI/standards-guidelines/wcag/>
