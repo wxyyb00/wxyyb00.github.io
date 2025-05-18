@@ -1,7 +1,7 @@
 # A Virtual Navigation Assistant System for Visually Impaired Users
 
 **Xinyu Wu**  
-20020923-7049  
+MSc Information and Network Engineering
 <xinywu@kth.se>
 
 ## Abstract
@@ -10,11 +10,11 @@ This project introduces a 3D virtual navigation assistant tailored for visually 
 
 ## 1. Introduction
 
-Visually impaired individuals often rely on auditory helping devices for navigation. In this project, we designed a virtual assistant in a 3D Unity world to simulate such guidance. The assistant reacts to user input and leads users to their destination. Our main goal was to explore the integration of computer graphics, animation, and accessibility support.
+Visually impaired individuals often rely on auditory helping devices for navigation. In this project, we designed a virtual assistant in a 3D Unity world to simulate such guidance. The assistant reacts to user input and leads users to their destination. **Our main goal was to explore the integration of computer graphics, animation, and accessibility support.**
 
 ## 2. Project Specification
 
-The system is designed to provide an accessible and interactive 3D navigation assistant tailored for visually impaired users. The key components of the system include:
+The system is designed to provide **an accessible and interactive 3D navigation assistant tailored for visually impaired users**. The key components of the system include:
 
 - **A Unity-based virtual outdoor environment** simulating natural elements and terrain.
 - **A virtual assistant character** with animations for idle, walking, waving, and talking, providing voice interaction and guidance.
@@ -24,23 +24,23 @@ The system is designed to provide an accessible and interactive 3D navigation as
 
 ### 3.1 Scene and Agents
 
-The virtual environment is based on an existing asset from the Unity Asset Store titled *Simple Nature Pack*, which provides a stylized outdoor scene including elements such as trees, rocks, and stumps.
+The **virtual environment** is based on an existing asset from the Unity Asset Store titled *Simple Nature Pack*, which provides a stylized outdoor scene including elements such as trees, rocks, and stumps.
 
 ![Scene of Simple Nature Pack [3]](forest.png)
 
-To maintain a consistent visual style, the virtual assistant is represented as a cartoon-style child character named *Ty*, downloaded from Mixamo. For character animation, several motion clips were also imported from Mixamo, including *Idle*, *Walk*, *Wave*, and *Talk* [5]. These animations were integrated into the character's Animator Controller to support basic state transitions during interactions.
+To maintain a consistent visual style, the **virtual assistant** is represented as a cartoon-style child character named *Ty*, downloaded from Mixamo. For character animation, several motion clips were also imported from Mixamo, including *Idle*, *Walk*, *Wave*, and *Talk* [5]. These animations were integrated into the character's Animator Controller to support basic state transitions during interactions.
 
 ![The virtual assistant represented as a cartoon-style child character named Ty from Mixamo [5]](ty.png)
 
 ![The pedestrian represented as a standard adult male model named Remy from Mixamo [5]](remy.png)
 
-To simulate pedestrian flow in the environment, an additional character named *Remy* — a standard adult male model from Mixamo - was used. Multiple instances of this character were randomly placed and controlled by a custom script, allowing them to move around the environment with varied timing and destinations, mimicking natural crowd behavior.
+To simulate **pedestrian flow** in the environment, an additional character named *Remy* — a standard adult male model from Mixamo - was used. Multiple instances of this character were randomly placed and controlled by a custom script, allowing them to move around the environment with varied timing and destinations, mimicking natural crowd behavior.
 
 **A third-person camera** is positioned behind the virtual assistant to **simulate the visual perspective of users**. This camera setup can be flexibly modified to imitate various visual impairments (e.g., narrowed field of view) or different user heights (e.g., child or wheelchair-level perspectives), offering adaptability for accessibility-focused simulations.
 
 ### 3.2 Assistant FSM System
 
-The assistant character is implemented as a finite state machine (FSM) using Unity's Animator, NavMeshAgent, and a custom controller script *AssistantFSM.cs*. The system handles multi-modal user interactions, pathfinding, environment-aware obstacle detection, and audio-visual feedback.
+The assistant character is implemented as **a finite state machine (FSM)** using Unity's Animator, NavMeshAgent, and a custom controller script *AssistantFSM.cs*. The system handles multi-modal user interactions, pathfinding, environment-aware obstacle detection, and audio-visual feedback.
 
 #### 3.2.1 Greeting Interaction
 
@@ -76,7 +76,7 @@ To ensure robustness, the system validates the availability of interest points b
 
 #### 3.3.2 Group-Aware Movement and Navigation
 
-Each agent in the simulation is controlled by the *CrowdAgent.cs* script, which implements a simplified version of the classic Boids algorithm proposed by Reynolds in 1987 [1]. The Boids model is a rule-based system used to simulate flocking behavior through three primary forces: Attraction, Cohesion, and Separation.
+Each agent in the simulation is controlled by the *CrowdAgent.cs* script, which implements **a simplified version of the classic Boids algorithm** proposed by Reynolds in 1987 [1]. The Boids model is a rule-based system used to simulate flocking behavior through three primary forces: Attraction, Cohesion, and Separation.
 
 In my implementation:
 - **Attraction** is realized by guiding the agent toward the assigned group target (an environmental interest point).
