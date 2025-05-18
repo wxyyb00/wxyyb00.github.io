@@ -124,21 +124,21 @@ These limitations highlight the need for future iterations that focus on user-ce
 
 This project aligns with perceptual principles in accessibility. Although the system is designed for visually impaired users, no formal user study has yet been conducted due to time and resource limitations. Therefore, current development decisions rely primarily on theoretical understanding of accessibility principles, informal testing, and iterative design feedback.
 
-Our perceptual assumptions are grounded in key principles from accessible design literature, including [6]:
+Our perceptual assumptions are grounded in **key principles from accessible design literature**, including [6]:
 
-- The importance of non-visual cues, such as audio feedback, for spatial orientation.
-- The use of spatialized sound (e.g., directional beeps) to guide attention and communicate proximity to obstacles.
-- The necessity for simple and consistent feedback to avoid cognitive overload for users navigating without vision.
+- **The importance of non-visual cues**, such as audio feedback, for spatial orientation.
+- The **use of spatialized sound** (e.g., directional beeps) to guide attention and communicate proximity to obstacles.
+- **The necessity for simple and consistent feedback** to avoid cognitive overload for users navigating without vision.
 
 Throughout development, we simulated user interactions by testing common navigation tasks, such as finding a destination, avoiding dynamic obstacles, and adapting to crowded environments. Feedback from sighted users performing these tasks without visual input (e.g., blindfolded trials) helped refine timing, voice prompts, and system responses.
 
-However, this proxy testing cannot replace real user validation. The lack of input from visually impaired individuals remains a critical limitation. Additionally, the system currently does not support natural input methods like voice commands, which would be essential for real-world use by blind users.
+However, this **proxy testing cannot replace real user validation**. The lack of input from visually impaired individuals remains a critical limitation. Additionally, the system currently does not support natural input methods like voice commands, which would be essential for real-world use by blind users.
 
 A full perceptual and user study in future work will focus on:
 
-- Evaluating the clarity and usability of the beep system in real navigation tasks.
-- Measuring user comfort and efficiency in crowded or obstacle-rich scenes.
-- Gathering qualitative feedback to adapt the behavior of the system to various user preferences.
+- **Evaluating the clarity and usability of the beep system in real navigation tasks.**
+- **Measuring user comfort and efficiency in crowded or obstacle-rich scenes.**
+- **Gathering qualitative feedback to adapt the behavior of the system to various user preferences.**
 
 This will be crucial in verifying whether the assistant truly improves spatial awareness, navigation confidence, and user autonomy in virtual and potentially real-world applications.
 
